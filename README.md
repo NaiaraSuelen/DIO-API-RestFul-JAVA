@@ -1,8 +1,9 @@
-#DIO - Curso Java 
+# DIO - Curso Java 
+API RestFul com Spring Boot
 
-##Criando uma API RestFul com Spring Boot
+## Diagrama de Classe
 
-markdown
+```mermaid
 classDiagram
     class Person {
         -String name
