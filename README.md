@@ -31,7 +31,7 @@ classDiagram
         -String icon
         -String description
     }
-    Person --> Account
-    Person --> Feature
-    Person --> Card
-    Person --> News
+    Person "1" *-- "1" Account
+    Person "1" *-- "N" Feature
+    Person "1" *-- "1"Card
+    Person "1" *-- "N" News
